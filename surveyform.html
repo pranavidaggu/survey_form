@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="text-box">
+          <h1 id="title">WELLCOME TO  HOTEL GRAND</h1><hr>
+            <p id="description">Tell us about your experience with Hotel Grand</p>
+        </div>
+      </header>
+          <div class="container">
+            <form id="survey-form" method="GET">
+      
+               <div class="labels">
+                <label id="name-label" for="name">* Full Name</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="text" id="name" name="name" placeholder="Enter your name" required autofocus></div>
+      
+               <div class="labels">
+                <label id="email-label" for="email">* Email</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+              
+               <div class="labels">
+                <label id="number-label" for="number">* Age</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="number" id="number" name="number" min="1" max="120" placeholder="15" required></div>
+      
+                
+               <div class="labels">
+                <label for="dropdown">How do you like the food in Hotel Grand?</label></div>
+              <div class="input-tab">
+                <select id="dropdown" name="site">
+                  <option disabled value selected>Select an option</option>
+                  <option value="excellent">Excellent</option>
+                  <option value="verygood">Very Good</option>
+                  <option value="good">Good</option>
+                  <option value="satisfactory">Satisfactory</option>
+                  <option value="nothappy">I am not happy</option>
+                </select>
+                </div>
+              
+              <div class="labels">
+                <label>How is the room service in Hotel Grand?</label></div>
+              <div class="input-tab">
+                  <input type="radio" name="radio-button" value="love">I love it!<br>
+                  <input type="radio" name="radio-button" value="like">I like it<br>
+                  <input type="radio" name="radio-button" value="ok">It's ok<br>
+                  <input type="radio" name="radio-button" value="nah">Not really<br>
+              </div>
+              
+              <div class="labels">
+                <label for="dropdown">How are the staff members with you?</label></div>
+              <div class="input-tab">
+                <select id="dropdown" name="seasons">
+                  <option disabled value selected>Select an option</option>
+                  <option value="verypolite">Very polite!</option>
+                  <option value="nice">Nice</option>
+                  <option value="Decentenough">Decent enough</option>
+                  <option value="change">Need to change their attitude</option>
+                </select>
+              </div>
+              
+              <div class="labels">
+                <label>With whom did you visit our Hotel Grand </label></div>
+              <div class="input-tab">
+                <input type="checkbox" name="alone" value="alone">Alone<br>
+                <input type="checkbox" name="friends" value="fr">Friends<br>
+                <input type="checkbox" name="family" value="fam">Family<br>
+                <input type="checkbox" name="partner" value="fam">Partner<br>
+                <input type="checkbox" name="other" value="other">Other<br>
+              </div>        
+              
+              <div class="labels">
+                <label for="comments">Please tell us your valuable suggestions for making your stay next time more enjoyable</label></div>
+              <div class="input-tab">
+                <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+              
+              <div class="btn">
+                <button id="submit" type="submit" >Submit</button>
+              </div>
+              
+            </form>
+          </div>
+      
+      <footer>
+        <div class="contact">
+          <a href="https://github.com/linh4" target="_blank">
+            <span class="icon"><i class="fa fa-github"></i></span></a>
+          <a href="https://codepen.io/linh4/" target="_blank">
+            <span class="icon"><i class="fa fa-codepen"></i></span></a>
+          <a href="https://www.freecodecamp.org/linh4" target="_blank">
+            <span class="icon"><i class="fa fa-free-code-camp"></i></span></a>
+        </div>
+            <p>&copy Hotel grand</a></p>
+      </footer>
+</body>
+</html>
+
+  
